@@ -5,7 +5,7 @@ from PIL import Image
 target_size = (224, 224)
 
 # Base directory
-base_dir = r'C:\Users\umad3'
+base_dir = r'directory path'
 
 # Subdirectories
 sub_dirs = [
