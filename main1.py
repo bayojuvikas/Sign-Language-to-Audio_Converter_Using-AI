@@ -7,7 +7,7 @@ import numpy as np
 import evaluate
 
 # Load dataset
-dataset = load_dataset('imagefolder', data_dir='C:/Users/umad3/resized_data')
+dataset = load_dataset('imagefolder', data_dir='path to image preprocess.py file')
 
 # Define feature extractor
 feature_extractor = ViTFeatureExtractor.from_pretrained('google/vit-base-patch16-224-in21k')
